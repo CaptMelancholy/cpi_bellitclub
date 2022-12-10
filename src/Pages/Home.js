@@ -50,7 +50,7 @@ export default class Home extends Component {
                         <Toast>
                             <ToastHeader closeButton={false}>
                                 <Image className='border border-2 me-auto' variant='top' src="https://avatars.githubusercontent.com/u/83921009?v=4" roundedCircle='true' width={30} height={30} />
-                                <strong className="me-auto">Andrew</strong>
+                                <strong className="me-auto">Andrew Nesteruk</strong>
                             </ToastHeader>
                             <Toast.Body>
                                 Hello, world! This is text about me.

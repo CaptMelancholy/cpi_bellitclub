@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cpi_bellitclub/static/css/main.df0dfb74.css",
-    "main.js": "/cpi_bellitclub/static/js/main.d0b40147.js",
+    "main.js": "/cpi_bellitclub/static/js/main.425d6f39.js",
     "static/js/787.48308003.chunk.js": "/cpi_bellitclub/static/js/787.48308003.chunk.js",
     "index.html": "/cpi_bellitclub/index.html",
     "main.df0dfb74.css.map": "/cpi_bellitclub/static/css/main.df0dfb74.css.map",
-    "main.d0b40147.js.map": "/cpi_bellitclub/static/js/main.d0b40147.js.map",
+    "main.425d6f39.js.map": "/cpi_bellitclub/static/js/main.425d6f39.js.map",
     "787.48308003.chunk.js.map": "/cpi_bellitclub/static/js/787.48308003.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df0dfb74.css",
-    "static/js/main.d0b40147.js"
+    "static/js/main.425d6f39.js"
   ]
 }

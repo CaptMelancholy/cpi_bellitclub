@@ -4,6 +4,17 @@ import { Card, Image, Badge, Toast, ToastHeader, Button } from 'react-bootstrap'
 export default class Home extends Component {
     render() {
         return (
+            <>
+            <div className='d-flex justify-content-center'>
+                <Card pill className='border border-5 bg-light' style={{ width: '36rem' }}>
+                    <Card.Header>
+                        О Портале
+                    </Card.Header>
+                    <Card.Body>
+                        Данный портал посвящен авторам Беларуси, наслаждайтесь.
+                    </Card.Body>
+                </Card>
+            </div>
             <div className='d-flex justify-content-evenly'>
                 <Card pill className='border border-5 bg-light' style={{ width: '18rem' }} >
                     <Card.Header>
@@ -58,6 +69,7 @@ export default class Home extends Component {
                     </Card.Footer>
                 </Card>
             </div>
+            </>
         )
     }
 }

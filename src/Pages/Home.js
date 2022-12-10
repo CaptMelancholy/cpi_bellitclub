@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, Image, Badge, Toast, ToastHeader, Button } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Home extends Component {
     render() {

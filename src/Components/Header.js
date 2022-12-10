@@ -13,7 +13,7 @@ export default class Header extends Component {
             <>
                 <Navbar collapseOnSelect expand="md" bg="light" variant="light" className='Box'>
                     <Container >
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/cpi_bellitclub/">
                             <img
                                 src={logo}
                                 height="30"
@@ -25,8 +25,8 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-bar" />
                         <Navbar.Collapse id="responsive-nav-bar" >
                             <Nav className="me-auto">
-                                <Nav.Link href="/"> Главная </Nav.Link>
-                                <Nav.Link href="/list"> Список </Nav.Link>
+                                <Nav.Link href="/cpi_bellitclub/"> Главная </Nav.Link>
+                                <Nav.Link href="/cpi_bellitclub/list"> Список </Nav.Link>
                             </Nav>
                             <NavDropdown title="Язык" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Русский</NavDropdown.Item>
@@ -39,8 +39,8 @@ export default class Header extends Component {
                 </Navbar>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={ <Home />} />
-                        <Route path="/list" element={ <List />} />
+                        <Route path="/cpi_bellitclub/" element={ <Home />} />
+                        <Route path="/cpi_bellitclub/list" element={ <List />} />
                     </Routes>
                 </BrowserRouter>
 

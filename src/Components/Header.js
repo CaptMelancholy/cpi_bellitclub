@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import logo from './logo.png'
 import './Header.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from '../Pages/Home'
+import List from '../Pages/List'
 
 export default class Header extends Component {
     render() {
         return (
+            <>
             <Navbar collapseOnSelect expand="md" bg="light" variant="light" className='Box'>
                 <Container >
                     <Navbar.Brand href="/">
@@ -32,6 +37,14 @@ export default class Header extends Component {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <BrowserRouter>
+                <Routes>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/list" component={List} />
+                </Routes>
+            </BrowserRouter>
+
+            </>
         )
     }
 }

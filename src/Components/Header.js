@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import logo from './logo.png'
 import './Header.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from '../Pages/Home'
 import List from '../Pages/List'
@@ -38,13 +38,13 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <BrowserRouter>
+                <HashRouter>
                     <Routes>
                         <Route path="/cpi_bellitclub/" element={ <Home />} />
                         <Route path="/cpi_bellitclub/list" element={ <List />} />
                         <Route path="/cpi_bellitclub/bogush" element = { <Bogush />} />
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
 
             </>
         )

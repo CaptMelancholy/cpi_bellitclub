@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card, Image, Badge, Toast, ToastHeader, Button } from 'react-bootstrap'
 import './Home.css';
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -29,7 +30,7 @@ export default class Home extends Component {
                         <h2>Франци́ск-Бенеди́кт Казими́рович Богуше́вич</h2>
                         <h2>21 марта 1840 - 28 апреля 1900</h2>
                         <p>Белорусский поэт, один из основоположников новой белорусской литературы. Основоположник критического реализма в белорусской литературе. </p>
-                            <Button className='text-center btn btn-light border border-5' style={{ width: '15rem' }} href="https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%88%D0%B0%D0%BA_%D0%91%D0%B0%D0%B3%D1%83%D1%88%D1%8D%D0%B2%D1%96%D1%87">
+                            <Button className='text-center btn btn-light border border-5' style={{ width: '15rem' }} href="/cpi_bellitclub/bogush">
 
                                 <span className='me-auto text-secondary'>ИНФОРМАЦИЯ</span>
 
@@ -92,6 +93,7 @@ export default class Home extends Component {
                             </Card.Link>
                         </Card.Footer>
                     </Card>
+                    
                 </div>
             </>
         )

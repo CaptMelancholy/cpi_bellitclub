@@ -4,7 +4,7 @@ import Card from './Card';
 function SearchList({ filteredPersons }) {
   const filtered = filteredPersons.map(person =>  <Card key={person.id} person={person} />); 
   return (
-    <div>
+    <div className="d-flex justify-content-around flex-wrap">
       {filtered}
     </div>
   );

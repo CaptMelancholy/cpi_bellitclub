@@ -38,11 +38,11 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <BrowserRouter>
+                <BrowserRouter basename='/cpi_bellitclub/'>
                     <Routes>
-                        <Route path="/cpi_bellitclub/" element={ <Home />} />
-                        <Route path="/cpi_bellitclub/list" element={ <List />} />
-                        <Route path="/cpi_bellitclub/bogush" element = { <Bogush />} />
+                        <Route path="/" element={ <Home />} />
+                        <Route path="/list" element={ <List />} />
+                        <Route path="/bogush" element = { <Bogush />} />
                     </Routes>
                 </BrowserRouter>
 

@@ -1,0 +1,13 @@
+.package {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+.package div {
+    border-radius: 10px;
+    border: 1px solid gray;
+}

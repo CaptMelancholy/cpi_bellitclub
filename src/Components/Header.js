@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from '../Pages/Home'
 import List from '../Pages/List'
+import Bogush from '../Pages/bagushevichPage'
 
 export default class Header extends Component {
     render() {
@@ -41,6 +42,7 @@ export default class Header extends Component {
                     <Routes>
                         <Route path="/cpi_bellitclub/" element={ <Home />} />
                         <Route path="/cpi_bellitclub/list" element={ <List />} />
+                        <Route path="/cpi_bellitclub/bogush" element = { <Bogush />} />
                     </Routes>
                 </BrowserRouter>
 

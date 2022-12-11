@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import logo from './logo.png'
 import './Header.css'
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from '../Pages/Home'
 import List from '../Pages/List'

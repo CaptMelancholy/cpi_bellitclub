@@ -2,11 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import logo from './logo.png'
 import './Header.css'
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-
-import Home from '../Pages/Home'
-import List from '../Pages/List'
-import Bogush from '../Pages/bagushevichPage'
+import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
     render() {
@@ -14,7 +10,7 @@ export default class Header extends Component {
             <>
                 <Navbar collapseOnSelect expand="md" bg="light" variant="light" className='Box'>
                     <Container >
-                        <Navbar.Brand href="/cpi_bellitclub/">
+                        <Navbar.Brand>
                             <img
                                 src={logo}
                                 height="30"
@@ -26,8 +22,8 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-bar" />
                         <Navbar.Collapse id="responsive-nav-bar" >
                             <Nav className="me-auto">
-                                <Nav.Link href="/cpi_bellitclub/"> Главная </Nav.Link>
-                                <Nav.Link href="/cpi_bellitclub/list"> Список </Nav.Link>
+                                <Nav.Link><Link to="/" style={{ textDecoration: 'none', color: 'grey' }}>Главная</Link></Nav.Link>
+                                <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>Список</Link></Nav.Link>
                             </Nav>
                             <NavDropdown title="Язык" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Русский</NavDropdown.Item>
@@ -38,14 +34,6 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <BrowserRouter basename='/cpi_bellitclub/'>
-                    <Routes>
-                        <Route path="/" element={ <Home />} />
-                        <Route path="/list" element={ <List />} />
-                        <Route path="/bogush" element = { <Bogush />} />
-                    </Routes>
-                </BrowserRouter>
-
             </>
         )
     }

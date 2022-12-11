@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card, Image, Badge, Toast, ToastHeader, Button } from 'react-bootstrap'
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 
 export default class Home extends Component {
@@ -30,11 +31,14 @@ export default class Home extends Component {
                         <h2>Франци́ск-Бенеди́кт Казими́рович Богуше́вич</h2>
                         <h2>21 марта 1840 - 28 апреля 1900</h2>
                         <p>Белорусский поэт, один из основоположников новой белорусской литературы. Основоположник критического реализма в белорусской литературе. </p>
-                            <Button className='text-center btn btn-light border border-5' style={{ width: '15rem' }} href="/cpi_bellitclub/bogush">
+                        <Link to="/bogush">
+                            <Button className='text-center btn btn-light border border-5' style={{ width: '15rem' }}>
 
                                 <span className='me-auto text-secondary'>ИНФОРМАЦИЯ</span>
 
                             </Button>
+                        </Link>
+
                     </div>
 
                 </div>
@@ -93,7 +97,7 @@ export default class Home extends Component {
                             </Card.Link>
                         </Card.Footer>
                     </Card>
-                    
+
                 </div>
             </>
         )

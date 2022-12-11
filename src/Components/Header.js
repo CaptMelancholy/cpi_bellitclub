@@ -26,8 +26,8 @@ export default class Header extends Component {
                                 <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>Список</Link></Nav.Link>
                             </Nav>
                             <NavDropdown title="Язык" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Русский</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
+                                <NavDropdown.Item>Русский</NavDropdown.Item>
+                                <NavDropdown.Item>
                                     English
                                 </NavDropdown.Item>
                             </NavDropdown>

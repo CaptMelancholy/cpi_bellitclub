@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'
 import List from './Pages/List'
+import Bogush from './Pages/bagushevichPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/list" element={< List />} />
+        <Route path="/bogush" element={< Bogush />} />
       </Routes>
 
     </HashRouter>

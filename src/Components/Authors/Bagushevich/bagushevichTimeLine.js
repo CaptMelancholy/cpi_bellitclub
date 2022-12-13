@@ -15,12 +15,10 @@ export default class BgTimeLine extends Component {
             return (
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date={element.data}
+                    date={element.time}
+                    dateClassName="date"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon ={
-                        element.icon === "book" ? <WorkIcon /> : element.icon === "school" ? <SchoolIcon /> : element.icon === "death" ? <DeathIcon /> : <LifeIcon />}
+                    icon=   {element.logo === "work" ? <WorkIcon /> : element.logo === "life" ? <LifeIcon /> :  element.logo === "school" ? <SchoolIcon /> : <DeathIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">{element.title}</h3>
                     <p>

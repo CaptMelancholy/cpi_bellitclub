@@ -44,7 +44,7 @@ export default class Home extends Component {
                 </div>
 
 
-                <div className='d-flex justify-content-evenly'>
+                <div className='d-flex justify-content-evenly flex-wrap'>
                     <Card pill className='border border-5 bg-light' style={{ width: '18rem' }} >
                         <Card.Header>
                             <Badge pill bg="secondary">Trainee Front-End Developer</Badge>

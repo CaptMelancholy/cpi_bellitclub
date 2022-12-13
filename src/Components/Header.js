@@ -11,13 +11,15 @@ export default class Header extends Component {
                 <Navbar collapseOnSelect expand="md" bg="light" variant="light" className='Box'>
                     <Container >
                         <Navbar.Brand>
-                            <img
-                                src={logo}
-                                height="30"
-                                width="30"
-                                className="align-top"
-                                alt="logo"
-                            />
+                            <Link to="/">
+                                <img
+                                    src={logo}
+                                    height="30"
+                                    width="30"
+                                    className="align-top"
+                                    alt="logo"
+                                />
+                            </Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-bar" />
                         <Navbar.Collapse id="responsive-nav-bar" >

@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-image {
+  height: 400px;
+}
+
+.card-button {
+  border-radius: 3px;
+  border-color: #aa9f89;
+}
+
+.card-button a {
+  text-decoration: none;
+  color: #2c2c2c;
+}

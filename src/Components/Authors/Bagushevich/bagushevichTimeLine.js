@@ -17,8 +17,8 @@ export default class BgTimeLine extends Component {
                     className="vertical-timeline-element--work"
                     date={element.time}
                     dateClassName="date"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon=   {element.logo === "work" ? <WorkIcon /> : element.logo === "life" ? <LifeIcon /> :  element.logo === "school" ? <SchoolIcon /> : <DeathIcon />}
+                    iconStyle={{ background: '#adb5bd', color: '#000' }}
+                    icon= {element.logo === "work" ? <WorkIcon /> : element.logo === "life" ? <LifeIcon /> :  element.logo === "school" ? <SchoolIcon /> : <DeathIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">{element.title}</h3>
                     <p>

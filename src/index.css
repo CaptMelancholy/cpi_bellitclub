@@ -14,11 +14,8 @@ code {
 
 .card-image {
   height: 400px;
-}
-
-.card-button {
+  border: 5px solid #adb5bd;
   border-radius: 3px;
-  border-color: #aa9f89;
 }
 
 .card-button a {

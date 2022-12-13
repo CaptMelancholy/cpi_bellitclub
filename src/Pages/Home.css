@@ -9,7 +9,7 @@
 
 .package div {
     background: url("../Images/books_bg.png") no-repeat fixed top center;
-    background-size: 100%;
+    background-size: cover;
     border-radius: 10px;
     border: 1px solid gray;
 }

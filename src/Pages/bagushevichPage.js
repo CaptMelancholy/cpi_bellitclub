@@ -3,6 +3,8 @@ import { Carousel, CarouselItem } from 'react-bootstrap';
 import 'react-vertical-timeline-component/style.min.css';
 import BgTimeLine from '../Components/Authors/Bagushevich/bagushevichTimeLine.js';
 
+
+
 export default class bagushevichPage extends Component {
     render() {
         return (
@@ -20,6 +22,7 @@ export default class bagushevichPage extends Component {
                 <img className="d-block w-75 m-auto" src='https://www.nlb.by/upload/medialibrary/7bf/bahushevich.jpg' alt='books' />
                 </CarouselItem>
            </Carousel>
+           
         </>
             
         )

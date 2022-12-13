@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Card({person}) {
     return(
       <div>
@@ -5,7 +7,7 @@ function Card({person}) {
         <div>
           <h2>{person.name}</h2>
         </div>
-        <button src={person.url}>ИНФОРМАЦИЯ</button>
+        <button><Link to={person.url}>ИНФОРМАЦИЯ</Link></button>
       </div>
     );
   }

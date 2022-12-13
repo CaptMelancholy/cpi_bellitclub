@@ -7,6 +7,10 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'
 import List from './Pages/List'
 import Bogush from './Pages/bagushevichPage'
+import Brovka from './Pages/brovkaPage';
+import Bogdanovich from './Pages/bogdanovichPage';
+import Dorozhn from './Pages/dorozhnPage';
+import Bidulya from './Pages/bidulyaPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,10 +21,12 @@ root.render(
         <Route path="/" element={< Home />} />
         <Route path="/list" element={< List />} />
         <Route path="/bogush" element={< Bogush />} />
+        <Route path="/brovka" element={<Brovka/>} />
+        <Route path="/bogdanovich" element={<Bogdanovich/>} />
+        <Route path="/dorozhn" element={<Dorozhn/>} />
+        <Route path="/bidulya" element={<Bidulya/>} />
       </Routes>
-
     </HashRouter>
-
   </React.StrictMode>
 );
 

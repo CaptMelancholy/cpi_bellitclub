@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Carousel, CarouselItem } from 'react-bootstrap';
 import 'react-vertical-timeline-component/style.min.css';
 import BgTimeLine from '../Components/Authors/Bagushevich/bagushevichTimeLine.js';
-
+import YoutubeEmbed from '../Components/YoutubeEmbed.js';
 
 
 export default class bagushevichPage extends Component {
@@ -24,8 +24,8 @@ export default class bagushevichPage extends Component {
                         </CarouselItem>
                     </Carousel>
                 </div>
-
-
+                
+                <YoutubeEmbed embedId="2SEHtuDrcQY" />
             </>
 
         )

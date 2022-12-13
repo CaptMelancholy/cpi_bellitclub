@@ -18,7 +18,16 @@ code {
   border-radius: 3px;
 }
 
-.card-button a {
-  text-decoration: none;
-  color: #2c2c2c;
+.video-responsive {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  height: 360px;
+  width: 640px;
+}
+
+.video-responsive iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

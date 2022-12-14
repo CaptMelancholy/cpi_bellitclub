@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, Container, NavDropdown, Image } from 'react-bootstrap'
 import logo from './logo.png'
+import lang from '../Images/lang.png'
 import './Header.css'
 import { Link } from 'react-router-dom'
+
+const titleImage = (
+    <Image 
+        src={lang}
+        alt='translation'
+        width='30'
+    />
+)
 
 export default class Header extends Component {
     render() {
@@ -27,7 +36,7 @@ export default class Header extends Component {
                                 <Nav.Link><Link to="/" style={{ textDecoration: 'none', color: 'grey' }}>Главная</Link></Nav.Link>
                                 <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>Список</Link></Nav.Link>
                             </Nav>
-                            <NavDropdown title="Язык" id="collasible-nav-dropdown">
+                            <NavDropdown title={titleImage} id="collasible-nav-dropdown">
                                 <NavDropdown.Item>Русский</NavDropdown.Item>
                                 <NavDropdown.Item>
                                     English

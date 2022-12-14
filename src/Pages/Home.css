@@ -4,12 +4,12 @@
     width: auto;
     height: auto;
     text-align: center;
-    margin: 40px 0 40px 0;
+    margin: 40px 0;
 }
 
 .package div {
     background: url("../Images/books_bg.png") no-repeat fixed top center;
     background-size: cover;
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 5px solid #adb5bd;
 }

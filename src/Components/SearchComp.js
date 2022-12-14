@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Scroll from './Scroll';
 import SearchList from './Search';
+import { Form } from 'react-bootstrap';
 
 function Search({ details }) {
 
@@ -30,17 +31,20 @@ function Search({ details }) {
   }
 
   return (
-    <section className="garamond">
-      <div className="navy georgia ma0 grow">
+    <section>
+      <div style={{margin: '40px 0 40px'}}>
         <h2 className="f2">Поиск писателей портала</h2>
       </div>
-      <div className="pa2">
-        <input 
-          className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
-          type = "search" 
-          placeholder = "Введите имя для поиска" 
-          onChange = {handleChange}
+      <div style={{margin: '0 0 40px'}}>
+
+        <Form.Control 
+          className='me-auto m-auto w-50'
+          class="form-control form-control-sm"
+          type = 'search'
+          placeholder='Имя автора'
+          onChange={handleChange}
         />
+          
       </div>
       {searchList()}
     </section>

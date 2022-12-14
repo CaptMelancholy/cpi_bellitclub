@@ -9,7 +9,7 @@ export default class Home extends Component {
         return (
             <>
                 <div className='d-flex justify-content-center'>
-                    <Card pill className='border border-5 bg-light' style={{ width: '36rem' }}>
+                    <Card pill className='border border-5 bg-light' style={{ width: '36rem', margin: '40px 0 0'}}>
                         <Card.Header>
                             О Портале
                         </Card.Header>
@@ -44,7 +44,7 @@ export default class Home extends Component {
                 </div>
 
 
-                <div className='d-flex justify-content-evenly flex-wrap'>
+                <div className='d-flex justify-content-evenly flex-wrap' style={{ gap: '20px'}}>
                     <Card pill className='border border-5 bg-light' style={{ width: '18rem' }} >
                         <Card.Header>
                             <Badge pill bg="secondary">Trainee Front-End Developer</Badge>

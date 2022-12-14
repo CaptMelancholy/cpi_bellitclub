@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cpi_bellitclub/static/css/main.cad99361.css",
-    "main.js": "/cpi_bellitclub/static/js/main.75f3d740.js",
+    "main.css": "/cpi_bellitclub/static/css/main.cfb9a17f.css",
+    "main.js": "/cpi_bellitclub/static/js/main.1d2f0eb4.js",
     "static/js/787.48308003.chunk.js": "/cpi_bellitclub/static/js/787.48308003.chunk.js",
     "static/media/books_bg.png": "/cpi_bellitclub/static/media/books_bg.5870f097713d72938920.png",
     "static/media/book.svg": "/cpi_bellitclub/static/media/book.71ae9f76e4e3576a15547a60cff9acd8.svg",
@@ -9,12 +9,12 @@
     "static/media/life.svg": "/cpi_bellitclub/static/media/life.d7653ea56908d1f124ab44dc6068b00d.svg",
     "static/media/school.svg": "/cpi_bellitclub/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "index.html": "/cpi_bellitclub/index.html",
-    "main.cad99361.css.map": "/cpi_bellitclub/static/css/main.cad99361.css.map",
-    "main.75f3d740.js.map": "/cpi_bellitclub/static/js/main.75f3d740.js.map",
+    "main.cfb9a17f.css.map": "/cpi_bellitclub/static/css/main.cfb9a17f.css.map",
+    "main.1d2f0eb4.js.map": "/cpi_bellitclub/static/js/main.1d2f0eb4.js.map",
     "787.48308003.chunk.js.map": "/cpi_bellitclub/static/js/787.48308003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad99361.css",
-    "static/js/main.75f3d740.js"
+    "static/css/main.cfb9a17f.css",
+    "static/js/main.1d2f0eb4.js"
   ]
 }

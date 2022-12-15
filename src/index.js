@@ -11,6 +11,7 @@ import Brovka from './Pages/brovkaPage';
 import Bogdanovich from './Pages/bogdanovichPage';
 import Dorozhn from './Pages/dorozhnPage';
 import Bidulya from './Pages/bidulyaPage';
+import './i18n'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

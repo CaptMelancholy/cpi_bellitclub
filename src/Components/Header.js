@@ -4,6 +4,7 @@ import logo from './logo.png'
 import lang from '../Images/lang.png'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 const titleImage = (
     <Image 
@@ -33,11 +34,17 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-bar" />
                         <Navbar.Collapse id="responsive-nav-bar" >
                             <Nav className="me-auto">
-                                <Nav.Link><Link to="/" style={{ textDecoration: 'none', color: 'grey' }}>Главная</Link></Nav.Link>
-                                <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>Список</Link></Nav.Link>
+                                <Nav.Link><Link to="/" style={{ textDecoration: 'none', color: 'grey' }}>
+                                    Главная
+                                    </Link></Nav.Link>
+                                <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>
+                                    Список
+                                </Link></Nav.Link>
                             </Nav>
                             <NavDropdown title={titleImage} id="collasible-nav-dropdown">
-                                <NavDropdown.Item>Русский</NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    Русский
+                                </NavDropdown.Item>
                                 <NavDropdown.Item>
                                     English
                                 </NavDropdown.Item>

@@ -3,7 +3,7 @@ import AuCard from '../Components/AuCard.js';
 import initialDetails from '../Data/initialDetails.js';
 import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
-import brovTL from '../Data/brobkaInfo.js';
+import brovTL from '../Data/brovkaInfo.js';
 
 export default class brovkaPage extends Component {
   render() {

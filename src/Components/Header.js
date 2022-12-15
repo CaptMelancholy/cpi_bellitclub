@@ -25,7 +25,7 @@ export default class Header extends Component {
                                 <img
                                     src={logo}
                                     height="30"
-                                    width="30"
+                                    width="auto"
                                     className="align-top"
                                     alt="logo"
                                 />

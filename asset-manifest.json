@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/cpi_bellitclub/static/css/main.d6111f0d.css",
-    "main.js": "/cpi_bellitclub/static/js/main.a2f9deae.js",
+    "main.css": "/cpi_bellitclub/static/css/main.20d80095.css",
+    "main.js": "/cpi_bellitclub/static/js/main.60d055f2.js",
     "static/js/787.48308003.chunk.js": "/cpi_bellitclub/static/js/787.48308003.chunk.js",
     "static/media/books_bg.png": "/cpi_bellitclub/static/media/books_bg.5870f097713d72938920.png",
     "static/media/lang.png": "/cpi_bellitclub/static/media/lang.39526c2bcab1d7d3bb6d.png",
-    "static/media/book.svg": "/cpi_bellitclub/static/media/book.71ae9f76e4e3576a15547a60cff9acd8.svg",
-    "static/media/death.svg": "/cpi_bellitclub/static/media/death.b44f575b1362c54bd4e3e7bef11c083d.svg",
-    "static/media/life.svg": "/cpi_bellitclub/static/media/life.d7653ea56908d1f124ab44dc6068b00d.svg",
+    "static/media/book.svg": "/cpi_bellitclub/static/media/book.1e7a4be70ebd897f8d8a7548d2f03739.svg",
+    "static/media/death.svg": "/cpi_bellitclub/static/media/death.d85130e1572485c74c83f07185554b56.svg",
+    "static/media/life.svg": "/cpi_bellitclub/static/media/life.d5342566dea723bce02985a52d12b923.svg",
     "static/media/school.svg": "/cpi_bellitclub/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "index.html": "/cpi_bellitclub/index.html",
-    "main.d6111f0d.css.map": "/cpi_bellitclub/static/css/main.d6111f0d.css.map",
-    "main.a2f9deae.js.map": "/cpi_bellitclub/static/js/main.a2f9deae.js.map",
+    "main.20d80095.css.map": "/cpi_bellitclub/static/css/main.20d80095.css.map",
+    "main.60d055f2.js.map": "/cpi_bellitclub/static/js/main.60d055f2.js.map",
     "787.48308003.chunk.js.map": "/cpi_bellitclub/static/js/787.48308003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6111f0d.css",
-    "static/js/main.a2f9deae.js"
+    "static/css/main.20d80095.css",
+    "static/js/main.60d055f2.js"
   ]
 }

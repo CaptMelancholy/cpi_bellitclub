@@ -1,7 +1,7 @@
 const initialDetails = [
 
     {
-        id: 1,
+        id: 'bogush',
         biografy: [
             {
                 id: 1,
@@ -47,7 +47,7 @@ const initialDetails = [
         }
     },
     {
-        id: 2,
+        id: 'bidulya',
         biografy: [
             {
                 id: 1,
@@ -94,7 +94,7 @@ const initialDetails = [
 
     },
     {
-        id: 3,
+        id: 'brovka',
         biografy: [
             {
                 id: 1,
@@ -141,7 +141,7 @@ const initialDetails = [
 
     },
     {
-        id: 4,
+        id: 'bogdanovich',
         biografy: [
             {
                 id: 1,
@@ -187,7 +187,7 @@ const initialDetails = [
         }
     },
     {
-        id: 5,
+        id: 'kolos',
         biografy: [
             {
                 id: 1,

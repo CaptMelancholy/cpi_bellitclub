@@ -31,21 +31,17 @@ p {
   margin-right: 12%;
 }
 
-.card-image {
-  height: 400px;
-  border: 5px solid #adb5bd;
-  border-radius: 3px;
-}
-
 .video-responsive {
   margin: auto;
   overflow: hidden;
   position: relative;
   height: 360px;
-  width: 640px;
+  width: 100%;
+  max-width: 640px;
 }
 
 .video-responsive iframe {
+  margin: auto;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -60,10 +56,25 @@ p {
   border-radius: 3px;
 }
 
+.card-container {
+  margin: auto;
+  width: 80%;
+}
+
 .card-author {
+  margin: auto;
   background: url("./Images/books_bg.png") no-repeat fixed top center;
   background-size: cover;
   border-radius: 10px;
   border: 5px solid #adb5bd;
   padding: 40px 0 40px;
+}
+
+.card-image {
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  border: 5px solid #adb5bd;
+  border-radius: 3px;
 }

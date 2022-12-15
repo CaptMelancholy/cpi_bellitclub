@@ -1,9 +1,12 @@
 import React from 'react'
 import { Carousel, CarouselItem } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
-const AuGallery = ({ element }) => (
-    <>
-        <h2 className='text-center'>Галерея</h2>
+const AuGallery = ({ element }) => {
+    const { t } = useTranslation();
+    return(
+        <>
+        <h2 className='text-center'>{t('gallery')}</h2>
         <div className='d-flex flex-grid justify-content-between'>
             <Carousel variant="dark" className='w-75 h-75 m-auto'>
                 <CarouselItem >
@@ -18,7 +21,8 @@ const AuGallery = ({ element }) => (
                 </CarouselItem>
             </Carousel>
         </div>
-    </>
-)
+        </>
+    )   
+}
 
 export default AuGallery;

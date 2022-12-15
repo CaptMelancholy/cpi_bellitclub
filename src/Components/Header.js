@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Navbar, Nav, Container, NavDropdown, Image } from 'react-bootstrap'
 import logo from '../Images/logo.png'
 import lang from '../Images/lang.png'
@@ -12,10 +12,15 @@ const titleImage = (
         alt='translation'
         width='30'
     />
-)
+);
 
-export default class Header extends Component {
-    render() {
+const lngs = {
+    ru: {nativeName: 'Русский'},
+    en: {nativeName: 'English'}
+};
+
+function Header() {
+    const { t, i18n} = useTranslation();
         return (
             <>
                 <Navbar collapseOnSelect expand="md" bg="light" variant="light" className='Box'>
@@ -35,18 +40,20 @@ export default class Header extends Component {
                         <Navbar.Collapse id="responsive-nav-bar" >
                             <Nav className="me-auto">
                                 <Nav.Link><Link to="/" style={{ textDecoration: 'none', color: 'grey' }}>
-                                    Главная
+                                    {t('navB_Main')}
                                     </Link></Nav.Link>
                                 <Nav.Link><Link to="list" style={{ textDecoration: 'none', color: 'grey' }}>
-                                    Список
+                                    {t('navB_List')}
                                 </Link></Nav.Link>
                             </Nav>
                             <NavDropdown title={titleImage} id="collasible-nav-dropdown">
                                 <NavDropdown.Item>
-                                    Русский
+                                    {Object.keys(lngs).map((lng) => (
+                                        <button type="submit" key={lng} onClick={() => i18n.changeLanguage(lng)} disabled={i18n.resolvedLanguage === lng}>{lngs[lng].nativeName}</button>
+                                    ))}
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    English
+                                    
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Navbar.Collapse>
@@ -55,4 +62,4 @@ export default class Header extends Component {
             </>
         )
     }
-}
+export default Header;

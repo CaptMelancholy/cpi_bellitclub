@@ -1,9 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
-const YoutubeEmbed = ({ embedId }) => (
-  <>
-    <h2 className='text-center'>Видео</h2>
+const YoutubeEmbed = ({ embedId }) => {
+
+  const { t } = useTranslation();
+  return(
+    <>
+    <h2 className='text-center'>{t('video')}</h2>
     <div className="video-responsive">
       <iframe
         width="853"
@@ -13,10 +17,11 @@ const YoutubeEmbed = ({ embedId }) => (
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Embedded youtube"
-      />
+        />
     </div>
   </>
 );
+}
 
 YoutubeEmbed.propTypes = {
   embedId: PropTypes.string.isRequired

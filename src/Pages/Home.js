@@ -23,7 +23,7 @@ function Home() {
 
             <div className='package'>
                 <div class="figure_of_the_day">
-                    <h1>Деятель Дня</h1>
+                    <h1>{t('day_author')}</h1>
                     <Image
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Francisak_Bahusevic.jpg/274px-Francisak_Bahusevic.jpg"
                         className='border border-4'
@@ -53,10 +53,10 @@ function Home() {
                         <Toast>
                             <ToastHeader closeButton={false}>
                             <Image className='border border-2 me-auto' variant='top' src="https://avatars.githubusercontent.com/u/92041432?v=4" roundedCircle='true' width={30} height={30} />
-                                <strong className="me-auto">Artyom Dan'ko</strong>
+                                <strong className="me-auto">{t('dev1_fio')}</strong>
                             </ToastHeader>
                             <Toast.Body>
-                                Hello, world! This is text about me.
+                                {t('dev1_descr')}
                             </Toast.Body>
                         </Toast>
                     </Card.Body>
@@ -80,10 +80,10 @@ function Home() {
                         <Toast>
                             <ToastHeader closeButton={false}>
                                 <Image className='border border-2 me-auto' variant='top' src="https://avatars.githubusercontent.com/u/83921009?v=4" roundedCircle='true' width={30} height={30} />
-                                <strong className="me-auto">Andrew Nesteruk</strong>
+                                <strong className="me-auto">{t('dev2_fio')}</strong>
                             </ToastHeader>
                             <Toast.Body>
-                                Hello, world! This is text about me.
+                                {t('dev2_descr')}
                             </Toast.Body>
                         </Toast>
                     </Card.Body>

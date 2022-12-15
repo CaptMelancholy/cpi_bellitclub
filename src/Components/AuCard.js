@@ -3,7 +3,7 @@ import React from 'react'
 const AuCard = ({ element }) => (
     <div style={ {display: 'flex', justifyContent: 'center', textAlign: 'center'} }>
         <div className='card-author w-50'>
-            <img className='card-image' src={element.imgPath}></img>
+            <img className='card-image' src={element.imgPath} alt='author'></img>
             <h1>{element.name}</h1>
             <h2>{element.date}</h2>
             <p>{element.details}</p>

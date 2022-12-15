@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card, Image, Badge, Toast, ToastHeader, Button } from 'react-bootstrap'
 import './Home.css';
 import { Link } from 'react-router-dom';
+import arrow from '../Images/arrow.png'
 
 
 export default class Home extends Component {
@@ -63,10 +64,11 @@ export default class Home extends Component {
                         <Card.Footer className='d-flex justify-content-center' >
                             <Card.Link className="mb-2 text-muted" href="https://github.com/CaptMelancholy" style={{ textDecoration: 'none' }}>
                                 <Button className='d-flex align-items-center btn btn-light border border-5' style={{ width: '15rem' }}  >
-                                    <Image className='me-auto' width={22} height={20} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">
+                                    <Image style={{color: 'secondary'}} className='me-auto' width={22} height={20} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">
                                     </Image>
                                     <span className='me-auto text-secondary'>CaptMelancholy</span>
-
+                                    <Image style={{color: 'secondary'}} className='ml-auto' width={22} height={20} src={arrow}>
+                                    </Image>
                                 </Button>
                             </Card.Link>
                         </Card.Footer>
@@ -92,7 +94,8 @@ export default class Home extends Component {
                                     <Image className='me-auto' width={22} height={20} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">
                                     </Image>
                                     <span className='me-auto text-secondary'>4ndreSha</span>
-
+                                    <Image style={{color: 'secondary'}} className='ml-auto' width={22} height={20} src={arrow}>
+                                    </Image>
                                 </Button>
                             </Card.Link>
                         </Card.Footer>

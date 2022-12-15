@@ -4,6 +4,7 @@ import initialDetails from '../Data/initialDetails.js';
 import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import klTL from '../Data/kolosInfo.js';
+import YoutubeEmbed from '../Components/YoutubeEmbed.js';
 
 export default class kolosPage extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class kolosPage extends Component {
         <AuCard element={initialDetails[4]} />
         <TimeLine element={klTL} />
         <AuGallery element={initialDetails[4]} />
+        <YoutubeEmbed embedId="HxFeWGZspJQ" />
       </>
     )
   }

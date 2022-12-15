@@ -5,6 +5,8 @@ import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import byadTL from '../Data/byadulyaInfo.js';
 
+import YoutubeEmbed from '../Components/YoutubeEmbed.js';
+
 export default class bidulyaPage extends Component {
   render() {
     return (
@@ -12,6 +14,7 @@ export default class bidulyaPage extends Component {
         <AuCard element={initialDetails[1]} />
         <TimeLine element={byadTL} />
         <AuGallery element={initialDetails[1]} />
+        <YoutubeEmbed embedId="GB_rlueYscM" />
       </>
 
     )

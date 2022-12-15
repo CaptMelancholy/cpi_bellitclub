@@ -4,14 +4,17 @@ import 'react-vertical-timeline-component/style.min.css';
 import BgTimeLine from '../Components/Authors/Bagushevich/bagushevichTimeLine.js';
 import YoutubeEmbed from '../Components/YoutubeEmbed.js';
 import Home from '../Components/GoogleMap.js';
-
+import AuCard from '../Components/AuCard.js';
+import initialDetails from '../Data/initialDetails.js';
 
 export default class bagushevichPage extends Component {
     render() {
         return (
             <>
+                <AuCard element={initialDetails[0]} />
                 <BgTimeLine />
-                <div className='d-flex justify-content-between'>
+                <h2 className='text-center'>Галерея</h2>
+                <div className='d-flex flex-grid justify-content-between'>
                     <Carousel variant="dark" className='w-75 h-75 m-auto'>
                         <CarouselItem >
                             <img className="d-block w-75 h-75 m-auto" src='https://www.nlb.by/upload/iblock/21b/af.jpg' alt='books' />

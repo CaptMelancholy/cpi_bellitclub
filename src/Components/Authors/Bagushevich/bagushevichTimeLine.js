@@ -8,27 +8,30 @@ import { ReactComponent as DeathIcon } from '../../../Images/death.svg';
 import { ReactComponent as LifeIcon } from '../../../Images/life.svg';
 
 export default class BgTimeLine extends Component {
-  render() {
-    return (
-        <VerticalTimeline>
-        {bgTL.map((element) => {
-            return (
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date={element.time}
-                    dateClassName="date"
-                    iconStyle={{ background: '#adb5bd', color: '#000' }}
-                    icon= {element.logo === "work" ? <WorkIcon /> : element.logo === "life" ? <LifeIcon /> :  element.logo === "school" ? <SchoolIcon /> : <DeathIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">{element.title}</h3>
-                    <p>
-                        {element.text}
-                    </p>
-                </VerticalTimelineElement>
-            );
-        })}
+    render() {
+        return (
+            <>
+                <h2 className='text-center'>Биография</h2>
+                <VerticalTimeline>
+                    {bgTL.map((element) => {
+                        return (
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element--work"
+                                date={element.time}
+                                dateClassName="date"
+                                iconStyle={{ background: '#adb5bd', color: '#000' }}
+                                icon={element.logo === "work" ? <WorkIcon /> : element.logo === "life" ? <LifeIcon /> : element.logo === "school" ? <SchoolIcon /> : <DeathIcon />}
+                            >
+                                <h3 className="vertical-timeline-element-title">{element.title}</h3>
+                                <p>
+                                    {element.text}
+                                </p>
+                            </VerticalTimelineElement>
+                        );
+                    })}
 
-        </VerticalTimeline>
-    )
-  }
+                </VerticalTimeline>
+            </>
+        )
+    }
 }

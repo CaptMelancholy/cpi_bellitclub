@@ -4,6 +4,8 @@ const initialDetails = [
         id: 1,
         imgPath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Francishak_Bahushevich_-_bf_1890_AD_grey.jpg/274px-Francishak_Bahushevich_-_bf_1890_AD_grey.jpg',
         name: 'Франциск Богушевич',
+        date: '21 марта 1840 - 28 апреля 1900',
+        details: 'Белорусский поэт, один из основоположников новой белорусской литературы. Основоположник критического реализма в белорусской литературе.',
         url: '/bogush',
     },
     {

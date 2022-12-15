@@ -7,6 +7,9 @@ const initialDetails = [
         date: '21 марта 1840 - 28 апреля 1900',
         details: 'Белорусский поэт, один из основоположников новой белорусской литературы. Основоположник критического реализма в белорусской литературе.',
         url: '/bogush',
+        img1: 'https://www.nlb.by/upload/iblock/21b/af.jpg',
+        img2: 'https://libcat.ru/uploads/posts/pictures/187428-bahusevic_tvory_apisannie_630.jpg',
+        img3: 'https://www.nlb.by/upload/medialibrary/7bf/bahushevich.jpg',
     },
     {
         id: 2,

@@ -18,11 +18,11 @@ root.render(
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/list" element={< List />} />
-        <Route path="/bogush" element={< Person data = {initialDetails[0]} />} />
-        <Route path="/brovka" element={< Person data = {initialDetails[1]} />} />
-        <Route path="/bogdanovich" element={< Person data = {initialDetails[3]} />} />
-        <Route path="/kolos" element={< Person data = {initialDetails[4]} />} />
-        <Route path="/bidulya" element={< Person data = {initialDetails[2]} />} />
+        <Route path={initialDetails[0].info.url} element={< Person data = {initialDetails[0]} />} />
+        <Route path={initialDetails[1].info.url} element={< Person data = {initialDetails[1]} />} />
+        <Route path={initialDetails[2].info.url} element={< Person data = {initialDetails[2]} />} />
+        <Route path={initialDetails[3].info.url} element={< Person data = {initialDetails[3]} />} />
+        <Route path={initialDetails[4].info.url} element={< Person data = {initialDetails[4]} />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

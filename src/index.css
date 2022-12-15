@@ -47,11 +47,19 @@ p {
   position: absolute;
 }
 
+.gallery-container {
+  padding-bottom: 20px;
+}
+
+.map {
+  padding-top: 20px;
+}
+
 .map-container {
   margin: auto;
   width: 60%;
   min-width: 360px;
-  height: 540px;
+  height: 640px;
   border: 5px solid #adb5bd;
   border-radius: 3px;
 }
@@ -59,6 +67,8 @@ p {
 .card-container {
   margin: auto;
   width: 80%;
+  max-width: 850px;
+  padding-bottom: 20px;
 }
 
 .card-author {

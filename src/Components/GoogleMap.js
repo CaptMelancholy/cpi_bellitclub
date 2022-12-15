@@ -15,10 +15,12 @@ function Map({coord}) {
     const { t } = useTranslation();
     return (
         <>
-            <h2 className='text-center'>{t('place_of_birth')}</h2>
-            <GoogleMap zoom={13} center={coord.center} mapContainerClassName="map-container">
-                <MarkerF position={coord.center}/>
-            </GoogleMap>
+            <div class="map">
+                <h2 className='text-center'>{t('place_of_birth')}</h2>
+                <GoogleMap zoom={13} center={coord.center} mapContainerClassName="map-container">
+                    <MarkerF position={coord.center}/>
+                </GoogleMap>
+            </div>
         </>
     )
 }

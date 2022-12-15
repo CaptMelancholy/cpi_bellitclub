@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { ReactComponent as WorkIcon } from '../Images/book.svg';
 import { ReactComponent as SchoolIcon } from '../Images/school.svg';

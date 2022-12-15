@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const AuCard = ({ element }) => (
     <div style={ {display: 'flex', justifyContent: 'center', textAlign: 'center'} }>

@@ -21,7 +21,7 @@ export default class Home extends Component {
 
 
                 <div className='package'>
-                    <div>
+                    <div class="figure_of_the_day">
                         <h1>Деятель Дня</h1>
                         <Image
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Francisak_Bahusevic.jpg/274px-Francisak_Bahusevic.jpg"

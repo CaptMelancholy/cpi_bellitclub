@@ -3,15 +3,15 @@ import AuCard from '../Components/AuCard.js';
 import initialDetails from '../Data/initialDetails.js';
 import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
-import brovTL from '../Data/brobkaInfo.js';
+import klTL from '../Data/kolosInfo.js';
 
-export default class brovkaPage extends Component {
+export default class kolosPage extends Component {
   render() {
     return (
       <>
-        <AuCard element={initialDetails[2]} />
-        <TimeLine element={brovTL} />
-        <AuGallery element={initialDetails[2]} />
+        <AuCard element={initialDetails[4]} />
+        <TimeLine element={klTL} />
+        <AuGallery element={initialDetails[4]} />
       </>
     )
   }

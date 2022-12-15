@@ -9,7 +9,7 @@ import List from './Pages/List'
 import Bogush from './Pages/bagushevichPage'
 import Brovka from './Pages/brovkaPage';
 import Bogdanovich from './Pages/bogdanovichPage';
-import Dorozhn from './Pages/dorozhnPage';
+import Kolos from './Pages/kolosPage';
 import Bidulya from './Pages/bidulyaPage';
 import './i18n'
 
@@ -24,7 +24,7 @@ root.render(
         <Route path="/bogush" element={< Bogush />} />
         <Route path="/brovka" element={<Brovka/>} />
         <Route path="/bogdanovich" element={<Bogdanovich/>} />
-        <Route path="/dorozhn" element={<Dorozhn/>} />
+        <Route path="/kolos" element={<Kolos/>} />
         <Route path="/bidulya" element={<Bidulya/>} />
       </Routes>
     </HashRouter>

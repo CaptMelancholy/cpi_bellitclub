@@ -5,6 +5,7 @@ import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import klTL from '../Data/kolosInfo.js';
 import YoutubeEmbed from '../Components/YoutubeEmbed.js';
+import Home from '../Components/GoogleMap.js';
 
 export default class kolosPage extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class kolosPage extends Component {
         <TimeLine element={klTL} />
         <AuGallery element={initialDetails[4]} />
         <YoutubeEmbed embedId="HxFeWGZspJQ" />
+        <Home coord={initialDetails[4]} />
       </>
     )
   }

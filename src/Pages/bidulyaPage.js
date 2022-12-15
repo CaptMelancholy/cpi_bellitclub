@@ -4,8 +4,8 @@ import initialDetails from '../Data/initialDetails.js';
 import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import byadTL from '../Data/byadulyaInfo.js';
-
 import YoutubeEmbed from '../Components/YoutubeEmbed.js';
+import Home from '../Components/GoogleMap.js';
 
 export default class bidulyaPage extends Component {
   render() {
@@ -15,6 +15,7 @@ export default class bidulyaPage extends Component {
         <TimeLine element={byadTL} />
         <AuGallery element={initialDetails[1]} />
         <YoutubeEmbed embedId="GB_rlueYscM" />
+        <Home coord={initialDetails[1]} />
       </>
 
     )

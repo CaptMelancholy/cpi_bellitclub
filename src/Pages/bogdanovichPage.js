@@ -5,6 +5,7 @@ import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import bogdTL from '../Data/bogdanovichInfo.js';
 import YoutubeEmbed from '../Components/YoutubeEmbed.js';
+import Home from '../Components/GoogleMap.js';
 
 export default class bogdanovichPage extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class bogdanovichPage extends Component {
         <TimeLine element={bogdTL} />
         <AuGallery element={initialDetails[3]} />
         <YoutubeEmbed embedId="ASaN7iVmR2I" />
-        
+        <Home coord={initialDetails[3]} />
       </>
     )
   }

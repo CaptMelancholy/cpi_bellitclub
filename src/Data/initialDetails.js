@@ -10,6 +10,7 @@ const initialDetails = [
         img1: 'https://www.nlb.by/upload/iblock/21b/af.jpg',
         img2: 'https://libcat.ru/uploads/posts/pictures/187428-bahusevic_tvory_apisannie_630.jpg',
         img3: 'https://www.nlb.by/upload/medialibrary/7bf/bahushevich.jpg',
+        center: { lat: 54.999624257150394, lng: 26.655251626304334 },
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ const initialDetails = [
         img2: 'https://kurjer.info/wp-content/uploads/2021/06/210614_byadulya.jpg',
         img3: 'https://s14.stc.yc.kpcdn.net/share/i/12/11248093/de-1200x900.jpg',
         url: '/bidulya',
+        center: { lat: 54.42642058346641, lng: 27.49049782047012 },
     },
     {
         id: 3,
@@ -32,6 +34,7 @@ const initialDetails = [
         img2: 'https://vetliva.ru/upload/resize_cache/iblock/819/1170_640_2ad00f77cb8d50abfaeeae09efd4a5122/81947d3c50a8821db6eafadd747b89f0.jpg',
         img3: 'https://www.sb.by/upload/medialibrary/a34/a347fe9cba099a1919f282b664639721.jpg',
         url: '/brovka',
+        center: { lat: 54.938395825097615, lng: 28.384030602158138 },
     },
     {
         id: 4,
@@ -43,6 +46,7 @@ const initialDetails = [
         img2: 'https://www.sb.by/upload/iblock/e7a/e7aa52227a7ba2453c5282dd5521844e.jpg',
         img3: 'https://grodnonews.by/upload/resize_cache/iblock/e00/924_560_2/e004ec4bb4f6f33eb112b2e4b26bcbb5.jpg',
         url: '/bogdanovich',
+        center: { lat: 53.93521586108235, lng: 27.623058891577188 },
     },
     {
         id: 5,
@@ -54,6 +58,7 @@ const initialDetails = [
         img2: 'https://knigaplus.ru/images/cms/thumbs/41baad0954b693d187192070f267e08cec7c90f8/kolos_stihotvoreniya_auto_420_jpeg_5_100.jpeg',
         img3: 'http://gdetut.by/uploads/posts/2018-08/1535091166_muzej_gosudarstvennyj-literaturnyj-m_minsk-akademicheskaya-5_about_19.jpg',
         url: '/kolos',
+        center: { lat: 53.919519517942, lng: 27.600111712740734 },
     },
 
 ];

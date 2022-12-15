@@ -16,7 +16,7 @@ export default class bagushevichPage extends Component {
                 <TimeLine element={bgTL} />
                 <AuGallery element={initialDetails[0]} />
                 <YoutubeEmbed embedId="2SEHtuDrcQY" />
-                <Home latit="54.999624257150394" longit="26.655251626304334" />
+                <Home coord={initialDetails[0]}  />
             </>
         )
     }

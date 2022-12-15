@@ -5,6 +5,7 @@ import AuGallery from '../Components/AuGallery.js';
 import TimeLine from '../Components/TimeLine.js';
 import brovTL from '../Data/brovkaInfo.js';
 import YoutubeEmbed from '../Components/YoutubeEmbed.js';
+import Home from '../Components/GoogleMap.js';
 
 export default class brovkaPage extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class brovkaPage extends Component {
         <TimeLine element={brovTL} />
         <AuGallery element={initialDetails[2]} />
         <YoutubeEmbed embedId="7xHGTr4EbK4" />
+        <Home coord={initialDetails[2]} />
       </>
     )
   }

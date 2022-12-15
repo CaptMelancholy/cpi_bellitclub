@@ -6,12 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'
 import List from './Pages/List'
-import Bogush from './Pages/bagushevichPage'
-import Brovka from './Pages/brovkaPage';
-import Bogdanovich from './Pages/bogdanovichPage';
-import Kolos from './Pages/kolosPage';
-import Bidulya from './Pages/bidulyaPage';
+import Person from './Pages/Person';
 import './i18n'
+import initialDetails from './Data/initialDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,17 +18,14 @@ root.render(
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/list" element={< List />} />
-        <Route path="/bogush" element={< Bogush />} />
-        <Route path="/brovka" element={<Brovka/>} />
-        <Route path="/bogdanovich" element={<Bogdanovich/>} />
-        <Route path="/kolos" element={<Kolos/>} />
-        <Route path="/bidulya" element={<Bidulya/>} />
+        <Route path="/bogush" element={< Person data = {initialDetails[0]} />} />
+        <Route path="/brovka" element={< Person data = {initialDetails[1]} />} />
+        <Route path="/bogdanovich" element={< Person data = {initialDetails[3]} />} />
+        <Route path="/kolos" element={< Person data = {initialDetails[4]} />} />
+        <Route path="/bidulya" element={< Person data = {initialDetails[2]} />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
